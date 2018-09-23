@@ -1,0 +1,32 @@
+html {
+    font-size: 94.2188px;
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 0.9rem;
+    background: #1d6cb3;
+    color: #fff;
+    position: relative;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.33rem;
+}
+
+.header {
+    height: 90px;
+    background: #1d6cb3;
+    color: #fff;
+    position: relative;
+    line-height: 0.9rem;
+    text-align: center;
+    font: 0.33rem "Microsoft Yahei", "黑体";
+}
+
+.header span {
+    line-height: 90px;
+}

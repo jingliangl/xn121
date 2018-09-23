@@ -1,0 +1,15 @@
+local.py
+node_modules/
+SelectedPhoto/
+deal-file
+dist
+webdist*
+.idea/
+.DS_Store
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.log
+*.tgz
+*.tar.gz

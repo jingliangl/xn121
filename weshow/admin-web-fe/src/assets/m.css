@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin: 0; padding: 0; border: 0 }
+body { background: #fff; font: 0.24rem "Microsoft Yahei", "黑体"; color: #252525 }
+input, button, select { vertical-align: middle }
+.fl { float: left; display: inline }
+.fr { float: right; display: inline }
+ul { list-style: none }
+a { text-decoration: none; color: #252525 }
+a:hover { color: #ee842f }
+h1, h, h3, h4, h5, h6 { font-weight: normal }
+i, em { font-style: normal }
+a:hover { color: #ee842f }
+.clearfix { zoom: 1 }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; height: 0 }
+header { height: 0.9rem; background: #1d6cb3; color: #fff; position: relative; line-height: 0.9rem; text-align: center; font-size: 0.33rem; }
+header span { position: absolute; width: 0.5rem; left: 0; top: 0rem; }
+.t { background: url(/m/i/mobile/banner.png) no-repeat; background-size: cover; position: relative; height: 5rem; }
+.t h1 a { background: url(/m/i/mobile/dw.png) no-repeat; color: #fff; background-size: contain; padding-left: 0.35rem; font-size: 0.24rem; }
+.t h1 span { color: #fff; float: right; font-size: 0.24rem; }
+.t h1 { width: 95%; margin: 0 auto; height: 0.9rem; line-height: 0.9rem; }
+.t h2 { text-align: right; width: 95%; margin: 0 auto; height: 1rem }
+.t h3 { font-size: 0.3rem; text-indent: 0.5rem; height: 1.9rem; color: #fff }
+.t h3 span { color: #fff; font-size: 1.5rem; }
+.t h4 { text-indent: 0.5rem; color: #fff; font-size: 0.35rem; }
+
+
+.t h4{
+	color:#fff;
+	margin-bottom:0.2rem;
+	font-size:0.22rem;}
+.t h4 span{
+	font-size:0.22rem;}
+.t h3 b{
+ font-weight:normal;
+ padding-left:0.3rem;
+}
+
+
+.index_l dl { float: left; text-align: center; width: 1.5rem; padding-top: 0.5rem; margin-left: 0.5rem; }
+.index_l dl dt { width: 1rem; margin: 0 auto; margin-bottom: 0.1rem; }
+.index_l dl dt a img { width: 100%; }
+.list dl { width: 95%; height:auto;float:left; padding: 0.2rem 0;  margin: 0 auto;margin-left:2.5%; border-bottom: 1px solid #dfdfdf; }
+.list dl dt { width: 25%; float: left; }
+.list dl dt a img { width: 100%; }
+.list dl dd { float: left; width: 70%; margin-left: 0.2rem; }
+.list dl dd a { color: #3e3d42; font-size: 0.26rem; font-weight: bold; display: block; margin-bottom: 0.1rem; }
+.list dl dd p { color: #999; font-size: 0.24rem; font-weight:normal;}
+.content { width: 95%; margin: 0 auto; }
+.content h1 { color: #343434; text-align: center; font-size: 0.4rem; font-weight: normal; margin-top: 15px; }
+.content h2 { font-size: 0.22rem; text-align: center; line-height: 20px; color: #b2b2b2; font-weight: normal; margin-bottom: 13px; margin-top: 10px; }
+.content p img { margin-left: -20px; width: 100%; }
+.content p { line-height: 0.5rem; margin-bottom: 0.3rem; text-indent: 20px; }
+header span img { width: 0.15rem; }
+.nav{
+	height:0.9rem;
+	line-height:0.9rem;
+	background:#f7f7f7;
+	}
+.nav a{
+display:block;
+width:33.3%;
+text-align:center;
+
+	float:left;}
+.nav a.m{
+	border-bottom:3px solid #1d6cb3;
+	color:#1d6cb3;}
+#vodeiDiv video{
+width:100%;
+height:100%;}
+
+
+.t h4{
+	color:#fff;
+	margin-bottom:0.2rem;
+	font-size:0.22rem;}
+.t h4 span{
+	font-size:0.22rem;}
+.t h3 b{
+ font-weight:normal;
+ padding-left:0.3rem;
+}
+.t h5 a{
+	background:rgba(0,0,0,0.5);
+	display:block;
+	font-size:0.22rem;
+	color:#fff;
+	height:0.6rem;
+	line-height:0.6rem;
+	padding:0px 0.1rem;
+	text-align:center;
+	margin-left:0.45rem;
+	width:1.3rem;}
+
+.yb{
+	margin-bottom:0.5rem;
+	background-image:url(/m/i/mobile/night.png);
+	}
+.yb h1 a{
+	background-size:0.15rem auto;
+	background-position:0.1rem;}
+.yb p em{
+	font-size:1.5rem;
+	color:#fff;
+	}
+.yb p{
+	color:#fff;
+	font-size:0.24rem;
+	margin-bottom:0.1rem;
+	text-align:center}
+.yb p i{
+	font-size:0.3rem;
+	display:block;
+	margin-bottom:0.3rem;}
+.yb p span{
+	padding:0.2rem;}
+.yb p b{
+	font-weight:normal;
+	background:#09ba2b;
+	padding:0.01rem 0.1rem;
+	position:relative;
+	left:0.06rem;}
+.tab h1{
+	width:60%;
+	border:1px solid #1d6cb3;
+	height:0.6rem;
+	margin:0 auto;
+	margin-bottom:0.5rem;}
+.tab h1 span{
+	display:block;
+	width:50%;
+	line-height:0.6rem;
+	text-align:center;
+	float:left;
+	font-size:0.3rem;}
+.tab h1 span.m{
+	background:#1d6cb3;
+	color:#fff;}
+
+
+.weather-up { height: 3.3rem; clear: both; overflow: hidden; position: relative }
+.weather-up-li { float: left; width: 14.2%; text-align: center; font-size:.24rem;
+margin-top: 5px }
+.weather-yesterday { opacity: .6 }
+.weather-day { color: #333 }
+.weather-up-li i, time { margin:0 auto .15rem;display:block;
+}
+.weather-up .weather-up-li time { display: block; height:.4rem;
+overflow: hidden; font-size:.23rem;
+color: #333333 }
+.weather-down { height: 2rem; position: relative }
+.weather-down p { display: block; line-height:.33rem;
+color: #333333; width:.7rem;
+margin: 0 auto }
+.weather-down p.wefther-fx {
+font-size:.23rem;
+padding-top:.16rem; position: relative; width: 100%; height:.3rem
+}
+.weather-down p.wefther-fx i { display: block; height:.22rem;
+left: 40%; position: absolute; width:.22rem
+}
+.weather-down p.wefther-fx i.windL { left: 28% }
+.weather-down p.wefther-fx i.windR { left: 52% }
+.weather-down p.wefther-fx i.wind00 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/00.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fx i.wind01 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/01.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fx i.wind02 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/02.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fx i.wind03 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/03.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fx i.wind04 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/04.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fx i.wind05 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/05.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fx i.wind06 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/06.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fx i.wind07 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/07.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fx i.wind08 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/08.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fx i.wind09 { background: url("http://i.tq121.com.cn/i/wap2016/news/fx/09.png") no-repeat scroll 0 0/12px auto }
+.weather-down p.wefther-fl { font-size:.18rem
+}
+.weatherAll { width: 100% }
+.weatherTitle { float: left; width: 100%; height:.8rem;
+line-height:.8rem;
+border-bottom: 1px solid rgba(255,255,255,0.1); border-top: 1px solid rgba(255,255,255,0.1); display: none }
+
+.weatherTitle .titleData { float: right; margin-right: 5px; height: 20px; line-height: 20px; font-size: 12px; margin-top: 10px; padding: 0 10px; display: none }
+.weatherTitle .active { border: 1px solid rgba(255,255,255,0.1); border-radius: 10px }
+.tianqicontDiv { width: 100%; overflow: hidden; position: relative }
+.hours72 { width: 100%; overflow: hidden; position: relative; border-top: 1px solid rgba(255,255,255,0.25); background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.1)) }
+.hours72 ul { float: left; position: relative; width: 365%; margin: 10px 0 }
+.hours72 ul li { width: 4.16%; float: left; text-align: center; font-size: 12px; background: 0 }
+.daysDiv15 { float: left; height: 42px; position: relative; width: 100% }
+.tianqicont { float: left; margin-bottom: 5px; width: 102% }
+.tianqicontDiv ul { position: absolute; top: 0; width: 100%; float: left; height: 100%; overflow: hidden; border-bottom: 1px solid #e3e3e3 }
+.tianqicontDiv ul li { width: 14.2%; float: left; height: 100%; border-right: 1px solid #e3e3e3; position: relative; z-index: 2 }
+.tianqicontDiv01 ul li { width: 20%; float: left; height: 100%; border-right: 1px solid rgba(255,255,255,0.1) }
+.tianqicontDiv ul .activeLi { background: rgba(0,0,0,0.1); border-right: 1px solid rgba(255,255,255,0.2) }
+#maxTemp { height: 90px; width: 100%; float: left; position: relative; top: 0 }
+#minTemp { height: 90px; width: 100%; float: left; position: relative; top: 0; margin-top: -30px }
+.weather-back { width: 100%; overflow-x: hidden }
+.swiper-containerLi { height: 115px }
+.swiper-containerlq .swiper-slide:first-child dl { background:url(http://i.tq121.com.cn/i/wap2017/uv.png?fd) no-repeat 0 0 / .4rem auto
+}
+.swiper-slide { text-align: center; color: #000; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; color: #fff }
+.timeLi { width: 100%; position: absolute; top: 15px; left: 0; font-size:.23rem
+}
+.tempLi { width: 100%; position: absolute; bottom: 15px; left: 0; font-size:.23rem
+}
+.timeLi b { font-weight: normal }
+.weather-up time span {
+line-height:.28rem; font-weight: normal; float: right; font-size:.14rem;
+height:.28rem;
+color: #ffce00; background: rgba(0,0,0,0.5); padding:0 .07rem;
+border-radius:.1rem;
+margin-top:.1rem
+}
+.wefther-fh { float: none; text-align: center; width: 100%; margin-bottom: 10px }
+.weather-down p.wefther-fh { margin-bottom: 10px }
+.wefther-fh span { font-weight: normal; font-size:.18rem;
+color: #fff; display: block; width: 100%; border-radius:.2rem;
+margin-top:.1rem
+}
