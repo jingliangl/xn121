@@ -15,15 +15,16 @@ class ExcelView(APIView):
                 if os.path.splitext(file)[1] == '.xlsx':
                     if file.__contains__(date):
                         file_path = dir + '/' + file
-                        size = os.path.getsize(file_path)
-                        mtime = time.ctime(os.path.getmtime(file_path))
-                        data = {
-                            'name': file,
-                            'size': size,
-                            'time': mtime,
-                            'url': settings.EXCEL_URL + file
-                        }
-                        L.append(data)
+                        if os.path.exists(file_path):
+                            size = os.path.getsize(file_path)
+                            mtime = time.ctime(os.path.getmtime(file_path))
+                            data = {
+                                'name': file,
+                                'size': size,
+                                'time': mtime,
+                                'url': settings.EXCEL_URL + file
+                            }
+                            L.append(data)
         return L
 
     @classmethod
