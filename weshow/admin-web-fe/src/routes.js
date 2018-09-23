@@ -41,6 +41,14 @@ export default [
         sideShow: false,
         component: resolve => require(['./pages/detail'], resolve)
     },
+    // excel
+    {
+        path: '/excel',
+        name: '003-1',
+        label: 'excel',
+        sideShow: false,
+        component: resolve => require(['./pages/excel'], resolve)
+    },
     // 其他
     {
         path: '*', // 其他页面，强制跳转到登录页面

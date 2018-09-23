@@ -37,3 +37,6 @@ TV = [
     ('cctv7', '/data/data/tv_json/cctv7.json'),
     ('lyws', '/data/data/tv_json/lyws.json'),
 ]
+
+EXCEL_DIR = '/data/data/excel/excel'
+EXCEL_URL = 'http://video.weathertj.com:8090/data/excel/excel/'
