@@ -1,10 +1,10 @@
 export default [
     {
-        path: '/cctv1',
+        path: '/jyws',
         name: '001-1',
-        label: 'cctv1',
+        label: 'jyws',
         sideShow: false,
-        component: resolve => require(['./pages/cctv1'], resolve)
+        component: resolve => require(['./pages/jyws'], resolve)
     },
     {
         path: '/cctv2',

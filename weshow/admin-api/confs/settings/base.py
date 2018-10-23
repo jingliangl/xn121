@@ -36,6 +36,7 @@ TV = [
     ('cctv4', '/data/data/tv_json/cctv4.json'),
     ('cctv7', '/data/data/tv_json/cctv7.json'),
     ('lyws', '/data/data/tv_json/lyws.json'),
+    ('jyws', '/data/data/tv_json/jyws.json'),
 ]
 
 EXCEL_DIR = '/data/data/excel/excel'
