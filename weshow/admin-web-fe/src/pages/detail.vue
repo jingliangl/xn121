@@ -2,7 +2,7 @@
     <kw-layout>
         <div class="header">
             <span style="float: left; margin-left: 20px"><a href="javascript:history.back(-1)"><img src="../../static/left.png"></a></span>
-            <span>{{ tv }}</span>
+            <span>{{ tv }}<span>
         </div>
         <div class="content">
             <h1>{{ apiData.name }}</h1>
