@@ -27,6 +27,10 @@ class WeshowView(APIView):
             for item in ret:
                 if item.get('id') == id:
                     ret = item
+		    name = ret.get('name')
+		    if name and len(name) > 10:
+		        ret['name'] = name[:-10]
+		        ret['time'] = name[-10:]
                     break
 
         return Response({
